@@ -7,7 +7,9 @@ redirect_from:
   - /about.html
 ---
 
-Hi my name is Katarina! I am a PhD Student focusing on generative models and geometric deep learning supervised by Prof Michael Bronstein and Dr Ismail Ceylan. 
+Hi my name is Katarina! I am a PhD Student at University of Oxford supervised by Prof Michael Bronstein [Prof Michael Bronstein](https://www.cs.ox.ac.uk/people/michael.bronstein/) and [Dr İsmail Ceylan](https://www.cs.ox.ac.uk/people/ismaililkan.ceylan/). My work focuses on generative models and their applications to model complex temporal evolutionary systems such as cancer tissue and social networks. I am particularly interested in:
+### How can we learn evolutionary behaviour large dynamical systems?
+### How can we generate new system states?
 
 Recent News
 ======
