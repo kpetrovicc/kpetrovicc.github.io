@@ -15,4 +15,4 @@ Recent News
 ======
 - **October 2024**: I started my PhD at the University of Oxford with Prof. Michael Bronstein and Dr. Ismail Ceylan!
 - **July 2024**: Our paper [_Temporal Graph Rewiring with Expander Graphs_](https://arxiv.org/abs/2406.02362) has been accepted at [ICML 2024 GRaM Workshop](https://gram-workshop.github.io). Shout out to my awesome collaborators [Andy Huang](https://shenyanghuang.github.io), [Farimah Poursafaei](https://fpour.github.io), and [Petar Veličković](https://petar-v.com)!
-- **November 2023**: I started my research internship at [Network Science Institute](https://www.networkscienceinstitute.org) in Boston in [Barabasi Lab](https://barabasi.com/science) with [Barabasi Lab](https://barabasi.com/science)!
+- **November 2023**: I started my research internship at [Network Science Institute](https://www.networkscienceinstitute.org) in Boston with [Barabasi Lab](https://barabasi.com/science)!
