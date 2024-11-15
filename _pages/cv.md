@@ -11,6 +11,7 @@ redirect_from:
 
 Education
 ======
+* DPhil in Computer Science, University of Oxford, 2024 -- 2028
 * MEng in Engineering Science, University of Oxford, 2017 -- 2021
 
 Work experience
