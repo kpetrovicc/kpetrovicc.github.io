@@ -11,26 +11,22 @@ redirect_from:
 
 Education
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+* MEng in Engineering Science, University of Oxford, 2017 -- 2021
 
 Work experience
 ======
-* Spring 2024: Academic Pages Collaborator
-  * Github University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+* 2023 -- 2024: Research Intern
+  * Network Science Institute
+  * Focusing on drug repurposing using LLMs
+  * Supervisor: Prof Albert-Laszlo Barabasi
 
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+* 2021 -- 2022: Private Equity Analyst
+  * The Carlyle Group
+  * Investing in real estate and adjacent sectors 
 
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+* Summer 2020: Investment Banking Summer Analyst
+  * Goldman Sachs
+  * Leveraged Finance team focusing on acquisitions in consumer, tech, healthcare and beyond
   
 Skills
 ======
