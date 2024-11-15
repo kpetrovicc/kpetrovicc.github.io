@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-Hi my name is Katarina! I am a PhD Student focusing on generative models and geometric deep learning supervised by Prof Michaeel Bronstein and Dr Ismail Ceylan. 
+Hi my name is Katarina! I am a PhD Student focusing on generative models and geometric deep learning supervised by Prof Michael Bronstein and Dr Ismail Ceylan. 
 
 Recent News
 ======
