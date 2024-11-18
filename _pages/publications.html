@@ -5,32 +5,38 @@ permalink: /publications/
 author_profile: true
 ---
 
-{% if site.author.googlescholar %}
-  <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
-{% endif %}
+<div class="col-lg-12">
+  <div class="row d-flex flex-wrap align-items-center">
+    <div class="col-md-3">
+        <img src="/images/screenshot_osq_power.png" alt="Temporal Graph Rewiring with Expander Graphs">
+    </div>
+    <div class="col-md-9">
+      <h3>
+        <strong>Temporal Graph Rewiring with Expander Graphs</strong>
+        <strong> [</strong><a href="https://arxiv.org/abs/2406.02362" target="_blank">PDF</a><strong>] </strong>
+      </h3>
+      <p style="line-height:22px; font-size: 18px;" class="mt-0"> <strong>Katarina Petrović</strong>,A. Huang, F. Poursafaei, P. Veličković, 
 
-{% include base_path %}
+      <br>ICML GRaM 2024 </p>
+    </div>
+    <hr class="mt-0 mb-0">
+  </div>
+</div>
 
-<!-- New style rendering if publication categories are defined -->
-{% if site.publication_category %}
-  {% for category in site.publication_category  %}
-    {% assign title_shown = false %}
-    {% for post in site.publications reversed %}
-      {% if post.category != category[0] %}
-        {% continue %}
-      {% endif %}
-      {% unless title_shown %}
-        <h2>{{ category[1].title }}</h2><hr />
-        {% assign title_shown = true %}
-      {% endunless %}
-      {% include archive-single.html %}
-    {% endfor %}
-  {% endfor %}
-{% else %}
-  {% for post in site.publications reversed %}
-    {% include archive-single.html %}
-  {% endfor %}
-{% endif %}
+<div class="col-lg-12">
+  <div class="row d-flex flex-wrap align-items-center">
+    <div class="col-md-3">
+        <img src="/images/screenshot_drew.png" alt="Electromagnetically induced transparency in a multilayered spherical quantum dot with hydrogenic impurity">
+    </div>
+    <div class="col-md-9">
+      <h3>
+        <strong>Electromagnetically induced transparency in a multilayered spherical quantum dot with hydrogenic impurity</strong>
+        <strong> [</strong><a href="https://www.sciencedirect.com/science/article/pii/S0925346718300430" target="_blank">PDF</a><strong>] </strong>
+      </h3>
+      <p style="line-height:22px; font-size: 18px;" class="mt-0"> V. Pavlović, M. Šušnjar, <strong>Katarina Petrović</strong>, 
 
-
-
+      <br>Elsevier Optical Materials 2018 </p>
+    </div>
+    <hr class="mt-0 mb-0">
+  </div>
+</div>
