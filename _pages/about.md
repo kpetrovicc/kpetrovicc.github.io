@@ -11,7 +11,7 @@ Hi my name is Katarina! I am a **PhD Student** at **University of Oxford** super
 
 I previously completed a research internship at [Network Science Institute](https://www.networkscienceinstitute.org) in Boston in [Barabasi Lab](https://barabasi.com/science), where I focused on leveraging LLMs to identify potential drug repurposing candidates and learn underlying disease mechanisms in gene networks.
 
-I hold MEng in Engineering Science from University of Oxford, where I was a recipient of Simon and June Li full-ride Oxford scholarship awarded on the basis of outstanding academic merit. I completed my Master’s thesis at Oxford Man Institute of Quantitative Finance under supervision of Prof. Xiaowen Dong and Dr. Jan-Peter Calliess, where I was developing multi-period optimization algorithms for trading in the FX markets.
+I hold MEng in Engineering Science from University of Oxford, where I was a recipient of Simon and June Li full-ride Oxford scholarship awarded on the basis of outstanding academic merit. I completed my Master’s thesis at Oxford Man Institute of Quantitative Finance under supervision of [Prof Xiaowen Dong](https://web.media.mit.edu/~xdong/) and [Dr Jan-Peter Calliess](https://www.robots.ox.ac.uk/~jan/), where I was developing multi-period optimization algorithms for trading in the FX markets.
 
 In summer 2020, I worked as an **Investment Banking Summer Analyst** at **Goldman Sachs** (London office) as part of Leveraged Finance Team. After graduating from University of Oxford in 2021, I worked as a **Private Equity Analyst** at **The Carlyle Group** (London office) where I was specializing in real estate acquisitions across the European markets. 
 
