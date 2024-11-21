@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-Hi my name is Katarina! I am a PhD Student at University of Oxford supervised by [Prof Michael Bronstein](https://www.cs.ox.ac.uk/people/michael.bronstein/) and [Dr İsmail Ceylan](https://www.cs.ox.ac.uk/people/ismaililkan.ceylan/). My work focuses on generative models and their applications to model complex temporal evolutionary systems such as cancer tissue and social networks. 
+Hi my name is Katarina! I am a PhD Student at **University of Oxford** supervised by [Prof Michael Bronstein](https://www.cs.ox.ac.uk/people/michael.bronstein/) and [Dr İsmail Ceylan](https://www.cs.ox.ac.uk/people/ismaililkan.ceylan/). My research focuses on simulation-free **generative models** and the application of **geometric deep learning** to simulate temporal evolution and learn dynamics of **large-scale real-world dynamical systems** such as cancer tissue and transaction networks.
 
 I previously completed a research internship at [Network Science Institute](https://www.networkscienceinstitute.org) in Boston in [Barabasi Lab](https://barabasi.com/science), where I focused on leveraging LLMs for drug repurposing.
 
