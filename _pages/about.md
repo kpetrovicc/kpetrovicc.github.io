@@ -17,6 +17,8 @@ In summer 2020, I worked as an **Investment Banking Summer Analyst** at **Goldma
 
 Recent News
 ======
+- **April 2025**: I am travelling to ICLR 2025 conference in Singapore, let's catch up! :)
+- **March 2025**: Our paper [_Curly Flow Matching for Learning Non-gradient Field Dynamics_](https://openreview.net/pdf?id=Cv84fXtQPJ) has been accepted at ICLR 2025 [LMRL](https://www.lmrl.org) and [MLGenX](https://mlgenx.github.io) Workshops. Shout out to my awesome collaborators [Lazar Atanackovic](https://lazaratan.github.io), [Kacper Kapuśniak](https://x.com/KKapusniak1), [Michael Bronstein](https://www.cs.ox.ac.uk/people/michael.bronstein/), [Joey Bose](https://joeybose.github.io) and [Alexander Tong](https://www.alextong.net)!
 - **October 2024**: I started my PhD at the University of Oxford with [Prof Michael Bronstein](https://www.cs.ox.ac.uk/people/michael.bronstein/) and [Dr İsmail Ceylan](https://www.cs.ox.ac.uk/people/ismaililkan.ceylan/)!
 - **July 2024**: Our paper [_Temporal Graph Rewiring with Expander Graphs_](https://arxiv.org/abs/2406.02362) has been accepted at [ICML 2024 GRaM Workshop](https://gram-workshop.github.io). Shout out to my awesome collaborators [Andy Huang](https://shenyanghuang.github.io), [Farimah Poursafaei](https://fpour.github.io), and [Petar Veličković](https://petar-v.com)!
 - **November 2023**: I started my research internship at [Network Science Institute](https://www.networkscienceinstitute.org) in Boston with [Barabasi Lab](https://barabasi.com/science)!
