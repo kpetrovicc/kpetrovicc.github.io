@@ -8,6 +8,7 @@
 
 # Basic Site Settings
 locale                   : "en-US"
+site_theme               : "default" # Currently available options are "default", "air"
 title                    : "Katarina Petrović"
 title_separator          : "-"
 name                     : &name "Katarina Petrović"
