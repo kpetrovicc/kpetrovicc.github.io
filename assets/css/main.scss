@@ -41,3 +41,44 @@
     "vendor/font-awesome/solid",
     "vendor/font-awesome/brands"
 ;
+.pub-item {
+  display: flex;
+  flex-direction: row;     /* ensures left–right layout */
+  align-items: center;     /* vertically align image + text */
+  gap: 16px;
+  margin-bottom: 1.25rem;
+  flex-wrap: nowrap;       /* prevents wrapping to top unless overridden below */
+}
+
+.pub-thumb {
+  flex: 0 0 160px;         /* fixed image width */
+  max-width: 160px;
+  height: auto;
+  border-radius: 8px;
+  display: block;
+}
+
+.pub-body {
+  flex: 1;
+  min-width: 0;            /* prevents text from pushing image to new line */
+}
+
+.pub-body h3 {
+  margin: 0 0 .3rem 0;
+  line-height: 1.25;
+}
+
+.pub-body p {
+  margin: .25rem 0 0 0;
+}
+
+/* Stack only on small screens */
+@media (max-width: 600px) {
+  .pub-item {
+    flex-wrap: wrap;
+    align-items: flex-start;
+  }
+  .pub-thumb {
+    margin-bottom: 0.75rem;
+  }
+}
