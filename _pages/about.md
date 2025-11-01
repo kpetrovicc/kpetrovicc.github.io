@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-Hi my name is Katarina! I am a **PhD Student** at **University of Oxford** supervised by [Prof Michael Bronstein](https://www.cs.ox.ac.uk/people/michael.bronstein/) and [Dr İsmail Ceylan](https://www.cs.ox.ac.uk/people/ismaililkan.ceylan/). My research focuses on flow-based generative models, particularly flow matching and diffusion. I am particularly interested in AI4Science applications such as modelling cell trajectories and small molecule generation.
+Hi my name is Katarina! I am a **PhD Student** at **University of Oxford** supervised by [Prof Michael Bronstein](https://www.cs.ox.ac.uk/people/michael.bronstein/) and [Dr İsmail Ceylan](https://www.cs.ox.ac.uk/people/ismaililkan.ceylan/). My research focuses on flow-based generative models, such as flow matching and diffusion. I am particularly interested in AI4Science applications such as modelling cell trajectories and small molecule generation.
 
 I previously completed a research internship at [Network Science Institute](https://www.networkscienceinstitute.org) in Boston in [Barabasi Lab](https://barabasi.com/science), where I focused on leveraging LLMs to identify potential drug repurposing candidates and learn underlying disease mechanisms in gene networks.
 
