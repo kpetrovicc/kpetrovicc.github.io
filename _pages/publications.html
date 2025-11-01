@@ -11,26 +11,67 @@ author_profile: true
 
 {% include base_path %}
 
-<!-- New style rendering if publication categories are defined -->
-{% if site.publication_category %}
-  {% for category in site.publication_category  %}
-    {% assign title_shown = false %}
-    {% for post in site.publications reversed %}
-      {% if post.category != category[0] %}
-        {% continue %}
-      {% endif %}
-      {% unless title_shown %}
-        <h2>{{ category[1].title }}</h2><hr />
-        {% assign title_shown = true %}
-      {% endunless %}
-      {% include archive-single.html %}
-    {% endfor %}
-  {% endfor %}
-{% else %}
-  {% for post in site.publications reversed %}
-    {% include archive-single.html %}
-  {% endfor %}
-{% endif %}
+<hr style="margin-top:1.5rem; margin-bottom:1.5rem;">
 
 
 
+<div class="pub-item">
+  <img class="pub-thumb" src="/images/epoch_100a_animation.gif" alt="Curly-FM">
+  <div class="pub-body">
+    <h3>
+      <strong>Curly Flow Matching for Learning Non-gradient Dynamics</strong>
+      <strong>[</strong><a href="https://arxiv.org/abs/2510.26645" target="_blank">PDF</a><strong>] </strong>
+    </h3>
+
+    <p style="line-height:22px; font-size:18px; margin-bottom:0.4rem;">
+      <strong>Katarina Petrović</strong>*, Lazar Atanackovic, Viggo Moro, Kacper Kapuśniak, 
+      İsmail Ceylan, Michael Bronstein, Joey Bose, Alexander Tong
+    </p>
+
+    <p style="line-height:22px; font-size:18px; margin-top:0;">
+      <strong>NeurIPS 2025</strong>
+    </p>
+  </div>
+</div>
+<hr class="mt-0 mb-3">
+
+
+
+<div class="pub-item">
+  <img class="pub-thumb" src="/images/TGR.jpg" alt="TGR">
+  <div class="pub-body">
+    <h3>
+      <strong>Temporal Graph Rewiring with Expander Graphs</strong>
+      <strong>[</strong><a href="https://arxiv.org/abs/2406.02362" target="_blank">PDF</a><strong>] </strong>
+    </h3>
+
+    <p style="line-height:22px; font-size:18px; margin-bottom:0.4rem;">
+      <strong>Katarina Petrović</strong>*, Andy Huang, Farimah Poursafaei, Petar Veličković
+    </p>
+
+    <p style="line-height:22px; font-size:18px; margin-top:0;">
+      <strong>ICML 2024 GRaM</strong>
+    </p>
+  </div>
+</div>
+<hr class="mt-0 mb-3">
+
+
+<div class="pub-item">
+  <img class="pub-thumb" src="/images/EIT.jpg" alt="EIT">
+  <div class="pub-body">
+    <h3>
+      <strong>Electromagnetically induced transparency in a multilayered spherical quantum dot with hydrogenic impurity</strong>
+      <strong>[</strong><a href="ttps://www.sciencedirect.com/science/article/pii/S0925346718300430"" target="_blank">PDF</a><strong>] </strong>
+    </h3>
+
+    <p style="line-height:22px; font-size:18px; margin-bottom:0.4rem;">
+      Vladan Pavlović, Marko Šušnjar, <strong>Katarina Petrović</strong>, Ljiljana Stevanović
+    </p>
+
+    <p style="line-height:22px; font-size:18px; margin-top:0;">
+      <strong>Elsevier Optical Materials</strong>
+    </p>
+  </div>
+</div>
+<hr class="mt-0 mb-3">
