@@ -23,7 +23,7 @@ repository               : "kpetrovicc/kpetrovicc.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "assets/profile.png"
   name             : "Katarina Petrović"
   pronouns         : # example: "she/her"  
   bio              : "PhD Student @ University of Oxford focusing on generative models"
