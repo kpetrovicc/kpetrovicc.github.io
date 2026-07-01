@@ -8,11 +8,17 @@ window.DATA = (function () {
     photo: "assets/profile.png",
     bioHtml:
       'My research focuses on <b>flow-based generative models</b> such as flow matching and diffusion. ' +
-      'I am particularly interested in <b>AI4Science</b> applications such as modelling cell trajectories and small-molecule generation. ' +
-      'I am supervised by <a href="https://www.cs.ox.ac.uk/people/michael.bronstein/" target="_blank" rel="noopener">Prof. Michael Bronstein</a> and ' +
-      '<a href="https://www.cs.ox.ac.uk/people/ismaililkan.ceylan/" target="_blank" rel="noopener">Dr İsmail Ceylan</a>. ' +
+      'I am particularly interested in distillation strategies to turn these models into one- or few-step generators, ' +
+      'as well as the choice of optimal couplings to improve generalization and training performance. ' +
+      'On the applications side, I work on conditional and text-to-image generation, as well as <b>AI4Science</b> problems ' +
+      'such as modelling cell trajectories and small-molecule generation. ' +
+      'I am supervised by <a href="https://www.cs.ox.ac.uk/people/michael.bronstein/" target="_blank" rel="noopener">Michael Bronstein</a>, ' +
+      '<a href="https://www.cs.ox.ac.uk/people/ismaililkan.ceylan/" target="_blank" rel="noopener">İsmail Ceylan</a> and ' +
+      '<a href="https://www.alextong.net" target="_blank" rel="noopener">Alex Tong</a>. ' +
       'Previously I was a research intern at the <a href="https://www.networkscienceinstitute.org" target="_blank" rel="noopener">Network Science Institute</a> ' +
-      '(<a href="https://barabasi.com/science" target="_blank" rel="noopener">Barabási Lab</a>) in Boston, and I hold an MEng in Engineering Science from the University of Oxford.',
+      '(<a href="https://barabasi.com/science" target="_blank" rel="noopener">Barabási Lab</a>) in Boston, and I am soon starting a research internship at ' +
+      '<a href="https://www.xaira.com" target="_blank" rel="noopener">Xaira Therapeutics</a> in London. ' +
+      'I hold a MEng in Engineering Science from the University of Oxford.',
   };
 
   const quickLinks = [
@@ -51,6 +57,8 @@ window.DATA = (function () {
   ];
 
   const news = [
+    { date: "2026-03", html: 'Just moved to <b>Vienna</b> for a few months to work at <a href="https://aithyra.at" target="_blank" rel="noopener">AITHYRA</a>!' },
+    { date: "2026-02", html: 'Gave a talk at the <b><i>in silico</i> series</b> in London.' },
     { date: "2025-10", html: 'Heading to <b>San Diego for NeurIPS 2025</b> to present <i>Curly Flow Matching</i> — let\'s catch up!' },
     { date: "2025-09", html: 'Our paper <a href="https://arxiv.org/abs/2510.26645" target="_blank" rel="noopener"><i>Curly Flow Matching for Learning Non-gradient Field Dynamics</i></a> was accepted at <b>NeurIPS 2025</b>.' },
     { date: "2025-04", html: 'Travelling to <b>ICLR 2025</b> in Singapore — let\'s catch up!' },
