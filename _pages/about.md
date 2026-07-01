@@ -7,16 +7,18 @@ redirect_from:
   - /about.html
 ---
 
-Hi my name is Katarina! I am a **PhD Student** at **University of Oxford** supervised by [Prof Michael Bronstein](https://www.cs.ox.ac.uk/people/michael.bronstein/) and [Dr İsmail Ceylan](https://www.cs.ox.ac.uk/people/ismaililkan.ceylan/). My research focuses on flow-based generative models, such as flow matching and diffusion. I am particularly interested in AI4Science applications such as modelling cell trajectories and small molecule generation.
+Hi my name is Katarina! I am a **PhD Student** at **University of Oxford** supervised by [Michael Bronstein](https://www.cs.ox.ac.uk/people/michael.bronstein/), [İsmail Ceylan](https://www.cs.ox.ac.uk/people/ismaililkan.ceylan/) and [Alex Tong](https://www.alextong.net). My research focuses on flow-based generative models, such as flow matching and diffusion. I am particularly interested in distillation strategies to turn these models into one- or few-step generators, as well as the choice of optimal couplings to improve generalization and training performance. On the applications side, I work on conditional and text-to-image generation, as well as AI4Science problems such as modelling cell trajectories and small-molecule generation.
 
-I previously completed a research internship at [Network Science Institute](https://www.networkscienceinstitute.org) in Boston in [Barabasi Lab](https://barabasi.com/science), where I focused on leveraging LLMs to identify potential drug repurposing candidates and learn underlying disease mechanisms in gene networks.
+I previously completed a research internship at [Network Science Institute](https://www.networkscienceinstitute.org) in Boston in [Barabasi Lab](https://barabasi.com/science). I am soon starting a research internship at [Xaira Therapeutics](https://www.xaira.com) in their London office!
 
-I hold MEng in Engineering Science from University of Oxford, where I was a recipient of Simon and June Li full-ride Oxford scholarship awarded on the basis of outstanding academic merit. I completed my Master’s thesis at Oxford Man Institute of Quantitative Finance under supervision of [Prof Xiaowen Dong](https://web.media.mit.edu/~xdong/) and [Dr Jan-Peter Calliess](https://www.robots.ox.ac.uk/~jan/), where I was developing multi-period optimization algorithms for trading in the FX markets.
+I hold MEng in Engineering Science from University of Oxford, where I was a recipient of Simon and June Li full-ride Oxford scholarship awarded on the basis of outstanding academic merit. I completed my Master’s thesis at Oxford Man Institute of Quantitative Finance under supervision of [Xiaowen Dong](https://web.media.mit.edu/~xdong/) and [Jan-Peter Calliess](https://www.robots.ox.ac.uk/~jan/). 
 
-In summer 2020, I worked as an Investment Banking Summer Analyst at Goldman Sachs (London office). After graduating from University of Oxford in 2021, I worked as a Private Equity Analyst at The Carlyle Group (London office) where I was specializing in real estate acquisitions across the European markets. 
+In some previous life, I worked as a Private Equity Analyst at [Carlyle](https://www.carlyle.com) and [AMCE](https://www.a-mcapital.com/europe/). I also did investment banking summer internship at Goldman Sachs.
 
 Recent News
 ======
+- **March 2026**: Just moved to Vienna for a few months to work at [AITHYRA](https://aithyra.at)!
+- **February 2026**: I gave a talk at *in silico* series in London 
 - **October 2025**: I will be in San Diego for NeurIPS 2025 conference to present Curly Flow Matching, let's catch up! 
 - **September 2025**: Our paper [_Curly Flow Matching for Learning Non-gradient Field Dynamics_](https://arxiv.org/abs/2510.26645) has been accepted at NeurIPS 2025. Shout out to my awesome collaborators [Lazar Atanackovic](https://lazaratan.github.io), [Viggo Moro](https://www.linkedin.com/in/viggo-moro/), [Kacper Kapuśniak](https://x.com/KKapusniak1), [İsmail Ceylan](https://www.cs.ox.ac.uk/people/ismaililkan.ceylan/), [Michael Bronstein](https://www.cs.ox.ac.uk/people/michael.bronstein/), [Joey Bose](https://joeybose.github.io) and [Alexander Tong](https://www.alextong.net)!
 - **April 2025**: I am travelling to ICLR 2025 conference in Singapore, let's catch up! :)
