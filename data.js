@@ -4,25 +4,35 @@ window.DATA = (function () {
     name: "Katarina Petrović",
     handle: "kpetrovicc",
     role: ["PhD Student at ", "University of Oxford", ""],
+    tagline: "working on generative models",
     email: "katarina.petrovic@cs.ox.ac.uk",
-    photo: "assets/profile.png",
+    photo: "assets/profile.png?v=2",
     bioHtml:
-      'My research focuses on <b>flow-based generative models</b> such as flow matching and diffusion. ' +
-      'I am particularly interested in distillation strategies to turn these models into one- or few-step generators, ' +
-      'as well as the choice of optimal couplings to improve generalization and training performance. ' +
-      'On the applications side, I work on conditional and text-to-image generation, as well as <b>AI4Science</b> problems ' +
+      '<p>My research focuses on <b>flow-based generative models</b> such as flow matching and diffusion. ' +
+      'I am particularly interested in <b>distillation strategies</b> to turn these models into one- or few-step generators, ' +
+      'as well as the choice of <b>optimal couplings</b> to improve generalization and training performance. ' +
+      'On the applications side, I work on <b>conditional and text-to-image generation</b>, as well as <b>AI4Science</b> problems ' +
       'such as modelling cell trajectories and small-molecule generation. ' +
       'I am supervised by <a href="https://www.cs.ox.ac.uk/people/michael.bronstein/" target="_blank" rel="noopener">Michael Bronstein</a>, ' +
       '<a href="https://www.cs.ox.ac.uk/people/ismaililkan.ceylan/" target="_blank" rel="noopener">İsmail Ceylan</a> and ' +
-      '<a href="https://www.alextong.net" target="_blank" rel="noopener">Alex Tong</a>. ' +
-      'Previously I was a research intern at the <a href="https://www.networkscienceinstitute.org" target="_blank" rel="noopener">Network Science Institute</a> ' +
-      '(<a href="https://barabasi.com/science" target="_blank" rel="noopener">Barabási Lab</a>) in Boston, and I am soon starting a research internship at ' +
-      '<a href="https://www.xaira.com" target="_blank" rel="noopener">Xaira Therapeutics</a> in London. ' +
-      'I hold a MEng in Engineering Science from the University of Oxford.',
+      '<a href="https://www.alextong.net" target="_blank" rel="noopener">Alex Tong</a>.</p>' +
+      '<p>I previously completed a research internship at the <a href="https://www.networkscienceinstitute.org" target="_blank" rel="noopener">Network Science Institute</a> ' +
+      'in Boston (<a href="https://barabasi.com/science" target="_blank" rel="noopener">Barabási Lab</a>), and I am soon starting a research internship at ' +
+      '<a href="https://www.xaira.com" target="_blank" rel="noopener">Xaira Therapeutics</a> in their London office!</p>' +
+      '<p>I hold a MEng in Engineering Science from the University of Oxford, where I was a recipient of the Simon and June Li ' +
+      'academic full-ride Oxford scholarship. I completed my Master&rsquo;s thesis at the ' +
+      'Oxford&ndash;Man Institute of Quantitative Finance under the supervision of ' +
+      '<a href="https://web.media.mit.edu/~xdong/" target="_blank" rel="noopener">Xiaowen Dong</a> and ' +
+      '<a href="https://www.robots.ox.ac.uk/~jan/" target="_blank" rel="noopener">Jan-Peter Calliess</a>.</p>' +
+      '<p>In some previous life, I worked as a Private Equity Analyst at ' +
+      '<a href="https://www.carlyle.com" target="_blank" rel="noopener">Carlyle</a> and ' +
+      '<a href="https://www.a-mcapital.com/europe/" target="_blank" rel="noopener">AMCE</a>, ' +
+      'and completed an investment banking summer internship at ' +
+      '<a href="https://www.goldmansachs.com" target="_blank" rel="noopener">Goldman Sachs</a>.</p>',
   };
 
   const quickLinks = [
-    { label: "Email", href: "mailto:katarina.petrovic@cs.ox.ac.uk", icon: "mail", accent: true },
+    { label: "Email", href: "mailto:katarina.petrovic@cs.ox.ac.uk", icon: "mail" },
     { label: "Scholar", href: "https://scholar.google.com/citations?user=wew2d54AAAAJ&hl=en", icon: "scholar" },
     { label: "GitHub", href: "https://github.com/kpetrovicc", icon: "github" },
     { label: "LinkedIn", href: "https://www.linkedin.com/in/kpetrovvic/", icon: "linkedin" },

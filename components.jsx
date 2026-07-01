@@ -29,7 +29,7 @@ function Nav({ route, go, theme, toggleTheme }) {
     <header className={"nav" + (scrolled ? " scrolled" : "")}>
       <div className="wrap nav__inner">
         <div className="brand" onClick={() => go({ name: "home" })} title="Home">
-          <span className="brand__mark">KP</span>
+          <span className="brand__mark"><img src="assets/avatar.png" alt="" /></span>
           <span className="brand__name">Katarina Petrović</span>
         </div>
         <nav className="nav__links">
@@ -50,11 +50,11 @@ function QuickLinks({ links }) {
   return (
     <div className="hero__links">
       {links.map((l) => (
-        <a key={l.label} className={"btn" + (l.accent ? " btn--accent" : "")} href={l.href}
+        <a key={l.label} className={"social-btn" + (l.accent ? " social-btn--accent" : "")} href={l.href}
+           title={l.label} aria-label={l.label}
            target={l.href.startsWith("http") ? "_blank" : undefined} rel="noopener"
            onClick={(e) => { if (l.href === "#") e.preventDefault(); }}>
           {Ic[l.icon] && Ic[l.icon]()}
-          {l.label}
         </a>
       ))}
     </div>
@@ -66,16 +66,19 @@ function Hero({ profile, links }) {
   return (
     <section className="hero">
       <div className="wrap hero__grid">
-        <div>
+        <div className="hero__card">
+          <div className="hero__photo">
+            <img src={profile.photo} alt={profile.name} />
+          </div>
           <h1 className="hero__name">
             <span className="grad">{profile.name}</span>
           </h1>
           <p className="hero__role">{profile.role[0]}<b>{profile.role[1]}</b>{profile.role[2]}.</p>
-          <p className="hero__bio" dangerouslySetInnerHTML={{ __html: profile.bioHtml }} />
+          {profile.tagline && <p className="hero__tagline">{profile.tagline}</p>}
           <QuickLinks links={links} />
         </div>
-        <div className="hero__photo">
-          <img src={profile.photo} alt={profile.name} />
+        <div className="hero__intro">
+          <div className="hero__bio" dangerouslySetInnerHTML={{ __html: profile.bioHtml }} />
         </div>
       </div>
     </section>
