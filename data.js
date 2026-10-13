@@ -17,7 +17,7 @@ window.DATA = (function () {
       '<a href="https://www.cs.ox.ac.uk/people/ismaililkan.ceylan/" target="_blank" rel="noopener">İsmail Ceylan</a> and ' +
       '<a href="https://www.alextong.net" target="_blank" rel="noopener">Alex Tong</a>.</p>' +
       '<p>I previously completed a research internship at the <a href="https://www.networkscienceinstitute.org" target="_blank" rel="noopener">Network Science Institute</a> ' +
-      'in Boston (<a href="https://barabasi.com/science" target="_blank" rel="noopener">Barabási Lab</a>), and I am soon starting a research internship at ' +
+      'in Boston (<a href="https://barabasi.com/science" target="_blank" rel="noopener">Barabási Lab</a>), and I am currently a research intern at ' +
       '<a href="https://www.xaira.com" target="_blank" rel="noopener">Xaira Therapeutics</a> in their London office!</p>' +
       '<p>I hold a MEng in Engineering Science from the University of Oxford, where I was a recipient of the Simon and June Li ' +
       'academic full-ride Oxford scholarship. I completed my Master&rsquo;s thesis at the ' +
@@ -39,7 +39,17 @@ window.DATA = (function () {
     { label: "X", href: "https://x.com/kpetrovvic", icon: "x" },
   ];
 
+  /* selected: false keeps a paper on the Publications page but off the home page. */
   const publications = [
+    {
+      id: "global-transport",
+      title: "Global Transport Couplings for Classifier-Free Guided Flows",
+      authors: "<b>Katarina Petrović</b>, Zander W. Blasingame, Danyal Rehman, İsmail Ceylan, Michael Bronstein, Stephen Y. Zhang, Lazar Atanackovic, Alexander Tong",
+      venue: "NeurIPS 2026 STODY",
+      img: "images/global_transport_horses.gif",
+      arxiv: "https://arxiv.org/abs/2610.07555",
+      code: "https://github.com/kpetrovicc/global-transport",
+    },
     {
       id: "curly-flow-matching",
       title: "Curly Flow Matching for Learning Non-gradient Dynamics",
@@ -63,6 +73,7 @@ window.DATA = (function () {
       venue: "Optical Materials (Elsevier)",
       img: "images/EIT.jpg",
       pdf: "https://www.sciencedirect.com/science/article/pii/S0925346718300430",
+      selected: false,
     },
   ];
 

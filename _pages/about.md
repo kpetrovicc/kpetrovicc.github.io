@@ -9,7 +9,7 @@ redirect_from:
 
 Hi my name is Katarina! I am a **PhD Student** at **University of Oxford** supervised by [Michael Bronstein](https://www.cs.ox.ac.uk/people/michael.bronstein/), [İsmail Ceylan](https://www.cs.ox.ac.uk/people/ismaililkan.ceylan/) and [Alex Tong](https://www.alextong.net). My research focuses on flow-based generative models, such as flow matching and diffusion. I am particularly interested in distillation strategies to turn these models into one- or few-step generators, as well as the choice of optimal couplings to improve generalization and training performance. On the applications side, I work on conditional and text-to-image generation, as well as AI4Science problems such as modelling cell trajectories and small-molecule generation.
 
-I previously completed a research internship at [Network Science Institute](https://www.networkscienceinstitute.org) in Boston in [Barabasi Lab](https://barabasi.com/science). I am soon starting a research internship at [Xaira Therapeutics](https://www.xaira.com) in their London office!
+I previously completed a research internship at [Network Science Institute](https://www.networkscienceinstitute.org) in Boston in [Barabasi Lab](https://barabasi.com/science). I am currently doing a research internship at [Xaira Therapeutics](https://www.xaira.com) in their London office!
 
 I hold MEng in Engineering Science from University of Oxford, where I was a recipient of Simon and June Li full-ride Oxford scholarship awarded on the basis of outstanding academic merit. I completed my Master’s thesis at Oxford Man Institute of Quantitative Finance under supervision of [Xiaowen Dong](https://web.media.mit.edu/~xdong/) and [Jan-Peter Calliess](https://www.robots.ox.ac.uk/~jan/). 
 

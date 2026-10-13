@@ -30,7 +30,7 @@ function HomeView({ data, go }) {
           <a className="sec-link" onClick={() => go({ name: "pubs" })}>All work <Ic.arrow style={{ width: 15, height: 15 }} /></a>
         </div>
         <div className="pub-list">
-          {data.publications.map((p) => <PubCard key={p.id} pub={p} />)}
+          {data.publications.filter((p) => p.selected !== false).map((p) => <PubCard key={p.id} pub={p} />)}
         </div>
       </section>
 

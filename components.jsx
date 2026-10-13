@@ -103,6 +103,7 @@ function PubCard({ pub }) {
         <div className="pub__links">
           {pub.arxiv && <a className="linklet" href={pub.arxiv} target="_blank" rel="noopener"><Ic.ext/>arXiv</a>}
           {pub.pdf && <a className="linklet" href={pub.pdf} target="_blank" rel="noopener"><Ic.ext/>PDF</a>}
+          {pub.code && <a className="linklet" href={pub.code} target="_blank" rel="noopener"><Ic.code/>Code</a>}
         </div>
       </div>
     </article>
