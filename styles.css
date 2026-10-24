@@ -1638,3 +1638,18 @@ p.review-note {
 @media (max-width: 640px) {
   .news__row { grid-template-columns: 1fr; gap: 0.25rem; }
 }
+
+/* ---- CV page ---- */
+.cv-actions { display: flex; flex-wrap: wrap; gap: 0.6rem; margin-top: 1.1rem; }
+.cv-block { padding-top: 0.5rem; }
+.cv-frame {
+  display: block; width: 100%; height: min(82vh, 1100px);
+  border: 1px solid var(--border); border-radius: var(--radius);
+  background: var(--surface); box-shadow: var(--shadow-sm); overflow: hidden;
+}
+.cv-fallback {
+  display: grid; place-items: center; gap: 0.6rem; height: 100%;
+  padding: var(--sp-4); text-align: center; color: var(--muted);
+}
+.cv-fallback p { margin: 0; }
+@media (max-width: 860px) { .cv-frame { height: 75vh; } }

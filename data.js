@@ -7,6 +7,7 @@ window.DATA = (function () {
     tagline: "working on generative models",
     email: "katarina.petrovic@cs.ox.ac.uk",
     photo: "assets/profile.png?v=2",
+    cv: "files/Katarina_Petrovic_CV.pdf",
     bioHtml:
       '<p>My research focuses on <b>flow-based generative models</b> such as flow matching and diffusion. ' +
       'I am particularly interested in <b>distillation strategies</b> to turn these models into one- or few-step generators, ' +
@@ -33,6 +34,7 @@ window.DATA = (function () {
 
   const quickLinks = [
     { label: "Email", href: "mailto:katarina.petrovic@cs.ox.ac.uk", icon: "mail" },
+    { label: "CV", href: "#/cv", icon: "file" },
     { label: "Scholar", href: "https://scholar.google.com/citations?user=wew2d54AAAAJ&hl=en", icon: "scholar" },
     { label: "GitHub", href: "https://github.com/kpetrovicc", icon: "github" },
     { label: "LinkedIn", href: "https://www.linkedin.com/in/kpetrovvic/", icon: "linkedin" },

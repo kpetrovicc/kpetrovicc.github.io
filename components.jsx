@@ -23,6 +23,7 @@ function Nav({ route, go, theme, toggleTheme }) {
   const links = [
     { id: "home", label: "Home" },
     { id: "pubs", label: "Publications" },
+    { id: "cv", label: "CV" },
   ];
   const here = route.name;
   return (

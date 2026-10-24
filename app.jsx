@@ -1,4 +1,4 @@
-/* Main app: hash routing (home / publications) + theme toggle. */
+/* Main app: hash routing (home / publications / cv) + theme toggle. */
 const { useState: uState, useEffect: uEffect } = React;
 
 /* ----- hash routing ----- */
@@ -7,10 +7,12 @@ function parseHash() {
   const parts = h.split("/").filter(Boolean);
   if (parts.length === 0) return { name: "home" };
   if (parts[0] === "pubs" || parts[0] === "publications") return { name: "pubs" };
+  if (parts[0] === "cv" || parts[0] === "resume") return { name: "cv" };
   return { name: "home" };
 }
 function routeToHash(r) {
   if (r.name === "pubs") return "#/pubs";
+  if (r.name === "cv") return "#/cv";
   return "#/";
 }
 
@@ -64,6 +66,33 @@ function PubsView({ data }) {
   );
 }
 
+/* ===== CV page ===== */
+function CvView({ data }) {
+  const cv = data.profile.cv;
+  const fileName = cv.split("/").pop();
+  return (
+    <div className="view">
+      <section className="page-head wrap">
+        <div className="eyebrow">Curriculum vitae</div>
+        <h1>CV</h1>
+        <p>My academic CV. View it below, open it in a new tab, or download a copy.</p>
+        <div className="cv-actions">
+          <a className="btn btn--accent" href={cv} target="_blank" rel="noopener"><Ic.ext/>Open in new tab</a>
+          <a className="btn" href={cv} download={fileName}><Ic.file/>Download PDF</a>
+        </div>
+      </section>
+      <section className="block wrap cv-block">
+        <object className="cv-frame" data={cv + "#view=FitH"} type="application/pdf" aria-label={data.profile.name + " CV"}>
+          <div className="cv-fallback">
+            <p>Your browser can&rsquo;t display PDFs inline.</p>
+            <a className="btn btn--accent" href={cv} target="_blank" rel="noopener"><Ic.ext/>Open the CV</a>
+          </div>
+        </object>
+      </section>
+    </div>
+  );
+}
+
 /* ===== App shell ===== */
 function App() {
   const data = window.DATA;
@@ -89,6 +118,7 @@ function App() {
 
   let view;
   if (route.name === "pubs") view = <PubsView data={data} go={go} />;
+  else if (route.name === "cv") view = <CvView data={data} />;
   else view = <HomeView data={data} go={go} />;
 
   return (
