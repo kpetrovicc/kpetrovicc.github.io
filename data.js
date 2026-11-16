@@ -17,9 +17,9 @@ window.DATA = (function () {
       'I am supervised by <a href="https://www.cs.ox.ac.uk/people/michael.bronstein/" target="_blank" rel="noopener">Michael Bronstein</a>, ' +
       '<a href="https://www.cs.ox.ac.uk/people/ismaililkan.ceylan/" target="_blank" rel="noopener">İsmail Ceylan</a> and ' +
       '<a href="https://www.alextong.net" target="_blank" rel="noopener">Alex Tong</a>.</p>' +
-      '<p>I previously completed a research internship at the <a href="https://www.networkscienceinstitute.org" target="_blank" rel="noopener">Network Science Institute</a> ' +
-      'in Boston (<a href="https://barabasi.com/science" target="_blank" rel="noopener">Barabási Lab</a>), and I am currently a research intern at ' +
-      '<a href="https://www.xaira.com" target="_blank" rel="noopener">Xaira Therapeutics</a> in their London office!</p>' +
+      '<p>I previously completed a research internship at <a href="https://www.xaira.com" target="_blank" rel="noopener">Xaira Therapeutics</a>. ' +
+      'Before starting my PhD, I also interned at the <a href="https://www.networkscienceinstitute.org" target="_blank" rel="noopener">Network Science Institute</a> ' +
+      'in Boston (<a href="https://barabasi.com/science" target="_blank" rel="noopener">Barabási Lab</a>).</p>' +
       '<p>I hold a MEng in Engineering Science from the University of Oxford, where I was a recipient of the Simon and June Li ' +
       'academic full-ride Oxford scholarship. I completed my Master&rsquo;s thesis at the ' +
       'Oxford&ndash;Man Institute of Quantitative Finance under the supervision of ' +
